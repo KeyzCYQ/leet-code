@@ -36,6 +36,11 @@ class Solution:
         return sol
 
 
-tests = [1, 2, 3, 4, 5]
-testcase = 4
-print(Solution().solveNQueens(tests[testcase]))
+tests = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+testcase = 8
+s = Solution().solveNQueens(tests[testcase])
+for sol in s:
+    for row in sol:
+        print(row)
+    print("--------")
+print(f"{len(s)} solutions")
