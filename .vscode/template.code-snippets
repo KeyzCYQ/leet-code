@@ -15,8 +15,9 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"template":{
+	"template_py":{
 		"prefix": "template",
+		"scope": "python",
 		"body":[
 			"import time",
 			"",
@@ -29,5 +30,19 @@
 			"print()",
 			"print(f'in {(time.time() - t0) * 1000} ms')"
 		]
-	}
+	},
+
+	"template_cpp":{
+		"prefix": "template",
+		"scope": "cpp",
+		"body":[
+			"#include <iostream>",
+			"",
+			"using namespace std;",
+			"",
+			"int main(){",
+			"",
+			"}"
+		]
+	},
 }
