@@ -37,11 +37,18 @@
 		"scope": "cpp",
 		"body":[
 			"#include <iostream>",
+			"#include <vector>",
+			"#include <queue>",
 			"",
 			"using namespace std;",
 			"",
-			"int main(){",
+			"struct Test{",
+			"\tTest():{};",
+			"};",
 			"",
+			"int main(){",
+			"\tTest t;",
+			"\tcout<<Solution();",
 			"}"
 		]
 	},
