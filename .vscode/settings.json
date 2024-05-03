@@ -2,6 +2,8 @@
     "files.associations": {
         "ios": "cpp",
         "vector": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "queue": "cpp",
+        "iosfwd": "cpp"
     }
 }
